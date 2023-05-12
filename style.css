@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body style */
+
+body {
+    background-color: rgb(40, 55, 106);
+}
+
+
+/* Container body  */
+
+
+
+.container {
+    margin: 120px auto;
+     display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 650px;
+}
+
+.container div {
+    /* border: 1px solid; */
+    height: 60px;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/* input number style */
+
+
+input[type=number] {
+    height: 50px;
+    width: 60%;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 22px;
+    color: rgb(40, 55, 106);
+}
+
+
+/* button style  */
+
+
+
+button {
+    height: 50px; 
+    width: 100%;
+    font-size: 27px;
+    color: rgb(40, 55, 106);
+    /* background-color: white; */
+    border-radius: 5px;
+    border-color: white;
+    /* transition: 1s ease-in; */
+    cursor: pointer;
+    transition: 2s ease-in-out;
+}
+
+
+button:hover {
+    background-color: rgb(40, 55, 106);
+    color: white;
+
+}
+
+/* Paragraph Style (p), Label Styles And Header style (h1*/
+
+
+p {
+    text-align: center;
+    font-size: 27px;
+    color: white;
+}
+
+
+label {
+    font-size: 29px;
+    color: white;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 43px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: white;
+}
